@@ -1,0 +1,5 @@
+1 - Get info from mechmarket new page
+2 - Set filter for
+    LOCATION = [CA-], [US-]
+    KEYWORDS = 
+3 - Display title & link to post 
