@@ -9,32 +9,35 @@
 </head>
 <body>
     <header><h1>Search r/mechmarket! </h1></header>
-    <label for="keyword">Keyword(s)</label><input type="text" id="keyword" placeholder="kbd, gmk, tkl, 65%">
+    <div class="container">
+        <label for="keyword">Keyword(s)</label><input type="text" id="keyword" placeholder="kbd, gmk, tkl, 65%">
     
-    <fieldset>
-        <legend>Select a location:</legend>
-    
-        <div>
-          <input type="radio" id="canada" name="location" value="[CA" checked>
-          <label for="canada">Canada</label>
-        </div>
-    
-        <div>
-          <input type="radio" id="unitedStates" name="location" value="[US">
-          <label for="unitedStates">United States</label>
-        </div>
-    
-        <div>
-          <input type="radio" id="europe" name="location" value="[EU">
-          <label for="europe">Europe</label>
-        </div>
-    </fieldset>
-    
-    <button id="showResultBtn">Show Results</button>
-    <div id="results"></div>
-
-    <i>Currently only works on first page of MM.</i>
-    <div>Created by <a href="https://www.instagram.com/ela.codes/">elacodes</a>.</div>
+        <fieldset>
+            <legend>Select a location:</legend>
+        
+            <div>
+            <input type="radio" id="canada" name="location" value="[CA" checked>
+            <label for="canada">Canada</label>
+            </div>
+        
+            <div>
+            <input type="radio" id="unitedStates" name="location" value="[US">
+            <label for="unitedStates">United States</label>
+            </div>
+        
+            <div>
+            <input type="radio" id="europe" name="location" value="[EU">
+            <label for="europe">Europe</label>
+            </div>
+        </fieldset>
+        
+        <button id="showResultBtn">Show Results</button>
+        <div id="results"></div>
+    </div>
+    <footer>
+        <i>Currently only works on first page of MM.</i>
+        <div>Created by <a href="https://www.instagram.com/ela.codes/">elacodes</a>.</div>
+    </footer>
 </body>
 
 </html>
